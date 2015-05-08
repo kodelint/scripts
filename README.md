@@ -34,7 +34,7 @@ CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.en
 
 tag_ebs_volume.py [Will tag all the volumes]
 
-
+<img src=http://i.imgur.com/8wANdRq.png>
 
 ### Todo's
 
