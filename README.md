@@ -29,9 +29,12 @@ Dillinger uses a number of open source projects to work properly:
 
 ### Usages
 CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.env --ami_description 'This for only Testing purpose' --keys <keyname> --subnet subnet-xxxxx --count 3 --type t2.micro
-tag_ebs_volume.py [Will tag all the volumes]
 
 <img src=http://i.imgur.com/TtrJXHm.png>
+
+tag_ebs_volume.py [Will tag all the volumes]
+
+
 
 ### Todo's
 
