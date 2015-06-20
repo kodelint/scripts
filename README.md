@@ -3,18 +3,12 @@
 Useful Scripts for AWS using Python - Boto
 
 Script CloneEC2instance.py  is used for Clone a running AWS Instances with all the attached volumes.
-  - CloneEC2instance.py  [-h] [--loglevel LOGLEVEL] [Required]
-                               [--region REGION] [Required]
-                               --instanceid INSTANCEID 
-                               --keys KEYS 
-                               --hostname HOSTNAME 
-                               --ami_description AMI_DESCRIPTION 
-                               --count COUNT 
-                               [--type TYPE] [Required]
-                               --subnet SUBNET [Required]
-
+```
+CloneEC2instance.py  [-h] [--loglevel LOGLEVEL] [Required] [--region REGION] [Required] --instanceid INSTANCEID --keys KEYS --hostname HOSTNAME --ami_description AMI_DESCRIPTION --count COUNT [--type TYPE] [Required] --subnet SUBNET [Required]
+```
 Srcipt tag_ebs_volume.py is used to tag all the volumes based on the EC2 instance TAGS
-  - tag_ebs_volume.py
+
+`tag_ebs_volume.py`
 
 
 ### Version
