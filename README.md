@@ -22,11 +22,12 @@ Dillinger uses a number of open source projects to work properly:
 * [tag_ebs_volume.py] - Srcipt tag_ebs_volume.py is used to tag all the volumes based on the EC2 instance TAGS
 
 ### Usages
+```
 CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.env --ami_description 'This for only Testing purpose' --keys <keyname> --subnet subnet-xxxxx --count 3 --type t2.micro
-
+```
 <img src=http://i.imgur.com/TtrJXHm.png>
 
-tag_ebs_volume.py [Will tag all the volumes]
+`tag_ebs_volume.py` [Will tag all the volumes]
 
 <img src=http://i.imgur.com/8wANdRq.png>
 
