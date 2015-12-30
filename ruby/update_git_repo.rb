@@ -7,7 +7,7 @@ require 'colorize'
 
 Pathname.new('/src/repo').children.select { |c| c.directory? }.collect { |p| p.to_s }.each do |reponame|
 	Dir.chdir("#{reponame}")
-	puts "Doing git pull on repo:  ".green + "#{reponame}".yellow
+	puts "Doing git pull on repo:  ".green + "#{reponame}.split('/').last".yellow
 	`git pull --rebase`
 end
 
