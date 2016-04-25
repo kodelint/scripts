@@ -33,6 +33,7 @@ CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.en
 
 `python findStopInstance.py --profile skynet`
 `python /home/sroy/s3upload.py --log_dir /var/log/app_logs --bucket_name mybucket`
+`python clone_repo.py <<reponame>>`
 
 ### Todo's
 
