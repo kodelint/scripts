@@ -31,6 +31,9 @@ CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.en
 
 <img src=http://i.imgur.com/8wANdRq.png>
 
+`python findStopInstance.py --profile skynet`
+`python /home/sroy/s3upload.py --log_dir /var/log/app_logs --bucket_name mybucket`
+
 ### Todo's
 
 
@@ -38,4 +41,3 @@ CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.en
 License
 ----
 MIT
-
