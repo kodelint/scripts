@@ -35,6 +35,8 @@ CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.en
 
 `python /home/sroy/s3upload.py --log_dir /var/log/app_logs --bucket_name mybucket`
 
+<img src=http://i.imgur.com/iaxD8KX.png>
+
 `python clone_repo.py <<reponame>>`
 
 ### Todo's
