@@ -39,6 +39,9 @@ CloneEC2Instance.py --loglevel INFO --instanceid i-xxxxxx --hostname hostname.en
 
 `python clone_repo.py <<reponame>>`
 
+
+`python orphan_elbs.py --region us-west-2 --profile test --vpc test --list`
+
 ### Todo's
 
 
