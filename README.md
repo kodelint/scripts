@@ -1,17 +1,10 @@
 ### Scripts
 
-Useful Scripts for daily sysadmin work
+Collection of useful Scripts for daily **sysadmin** work:
 
-#### Content:
+* `python`
+* `ruby`
+* `powershell`
 
-* python
-* ruby
-* powershell
-
-#### Todo's
-
-
-License
-----
-MIT
-
+#### Version
+0.0.2
