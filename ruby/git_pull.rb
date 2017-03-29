@@ -3,7 +3,7 @@ require 'colorize'
 
 repo = ARGV[0]
 work = 'PATH_2_WORK'
-open = 'PATH_2_PERSONAL'
+personal = 'PATH_2_PERSONAL'
 
 if repo == 'work' 
   Pathname.new("#{work}").children.select { |c| c.directory? }.collect { |p| p.to_s }.each do |reponame|
@@ -11,10 +11,12 @@ if repo == 'work'
   	puts "Doing git pull on repo:  ".green + reponame.split('/').last.yellow
   	`git pull --rebase`
   end
-else
+elsif repo == 'personal'
   Pathname.new("#{open}").children.select { |c| c.directory? }.collect { |p| p.to_s }.each do |reponame|
   	Dir.chdir("#{reponame}")
   	puts "Doing git pull on repo:  ".green + reponame.split('/').last.yellow
   	`git pull --rebase`
-  end
+	end
+else
+	puts "You got the wrong argument, only 'work' or 'personal' is allowed"
 end
